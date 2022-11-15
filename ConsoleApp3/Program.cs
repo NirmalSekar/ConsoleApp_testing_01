@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-
     class Car
     {
         string color = "Grey";
@@ -42,20 +41,20 @@ namespace ConsoleApp3
                 Console.WriteLine("the animal makes sound");
             }
         }
-        class Pig: Animal
-        {
-            public void animalSound()
-            {
-                Console.WriteLine("wee wee");
-            }
-        }
-        class Dog: Animal
-        {
-            public void animalSound()
-            {
-                Console.WriteLine("bow bow");
-            }
-        }
+        //class Pig: Animal
+        //{
+        //    public void animalSound()
+        //    {
+        //        Console.WriteLine("wee wee");
+        //    }
+        //}
+        //class Dog: Animal
+        //{
+        //    public void animalSound()
+        //    {
+        //        Console.WriteLine("bow bow");
+        //    }
+        //}
 
         class Bird
         {
