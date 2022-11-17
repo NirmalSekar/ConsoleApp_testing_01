@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
+  
     class Car
     {
+        static void Main(string[] args)
+        {
+            Hello_world exercise1 = new Hello_world();
+            exercise1.title = "Hi Nirmal,"
+            Console.WriteLine(exercise1.title);
+        }
         string color = "Grey";
         string model;
         string year;
